@@ -10,9 +10,13 @@ import SubRouting from './components/routing-nested/SubRouting'
 import Api from './components/api-call/api'
 import ApiHook from './components/api-call-hook/api_hook'
 import Binding from './components/handle-event/binding'
+import CopyClipboard from './components/copy-clipboard/copy'
+
+
+
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<ApiHook />, document.getElementById('root'));
+ReactDOM.render(<CopyClipboard />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
