@@ -4,10 +4,10 @@ export default class event_handling extends Component {
 
     constructor(){
         super();
-        this.state={
-          num:10
-        }
-        this.increment=this.increment.bind(this);
+       this.state = {
+           num: 1
+       }
+       this.increment = this.increment.bind(this);
       }
 
     increment() {
